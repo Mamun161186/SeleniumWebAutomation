@@ -13,10 +13,10 @@ public class FindElements {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.get("https://www.saucedemo.com/");
 
-     /* String s = driver.getTitle();
+        String s = driver.getTitle();
         System.out.println(s);
         String s2 = driver.getCurrentUrl();
-        System.out.println(s2);*/
+        System.out.println(s2);
 
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
         Thread.sleep(2000);
