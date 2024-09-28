@@ -45,10 +45,6 @@ public class PracticeMercuryTours {
         driver.findElement(By.name("submit")).click();
 
 
-
-
-
-
         Thread.sleep(6000);
         driver.quit();
     }
